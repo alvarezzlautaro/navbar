@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ECE8EF;
+}
+nav{
+    background-color: #DC493A ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+}
+#logo-pepsi {
+    height: 3.2rem;
+}
+ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 5px;
+    padding: 3px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20%;
+    padding: 2px;
+}
