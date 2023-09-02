@@ -7,14 +7,16 @@ body {
 }
 nav{
     background-color: #DC493A ;
+    font-family: 'Bricolage Grotesque', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 5px 10px 5px 10px;
+    max-height: 60px;
 }
 #logo-pepsi {
-    height: 3.2rem;
+    height: 3.7rem;
 }
 ul {
     list-style: none;
